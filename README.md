@@ -33,5 +33,9 @@ $ yarn add @types/styled-components -D
 6. Install Polish:
 ```
 $ yarn add polished
+```
+7. Install React Icons: 
+```
+$ yarn add react-icons
 $ yarn add @types/polished -D
 ```
