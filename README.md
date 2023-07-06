@@ -29,3 +29,9 @@ $ yarn @types/react-router-dom -D
 $ yarn add styled-components
 $ yarn add @types/styled-components -D
 ```
+5. create path and archive: styles/global.ts
+6. Install Polish:
+```
+$ yarn add polished
+$ yarn add @types/polished -D
+```
