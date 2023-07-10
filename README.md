@@ -81,3 +81,9 @@ localStorage.setItem('@GithubExplorer:repositories', JSON.stringify(repositories
 ### Browsing between routes
 1. Import `Link`
 2. Updating to React Router DOM v6
+
+### Styling Repository
+1. Creating archive to HTML and styles.ts
+
+### Connecting to API
+1. client and linking data
