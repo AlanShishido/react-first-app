@@ -54,3 +54,30 @@ $ yarn add react-icons
 $ yarn add axios
 $ yarn add @types/axios -D
 ```
+
+### Exceptions
+1. Using conditional to html
+```
+{ inputError && <Error>{inputError}</Error> }
+```
+
+2. Using conditional to css
+```
+form {
+    border-color: #fff
+    ${(props) => props.hasError && css`
+                border-color: #c53030;
+            `}
+}
+```
+
+### Local Storage
+1. Import `useEffect`
+2. Using localstorage
+```
+localStorage.setItem('@GithubExplorer:repositories', JSON.stringify(repositories))
+```
+
+### Browsing between routes
+1. Import `Link`
+2. Updating to React Router DOM v6
